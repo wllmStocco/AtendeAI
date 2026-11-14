@@ -1,0 +1,23 @@
+# AtendeAI - Projeto de Disciplina AI Agents com LangChain
+# Faixas 0.3.x: as APIs exigidas no enunciado (initialize_agent, ConversationBufferMemory,
+# RouterChain) existem aqui. Depois do primeiro install que funcionar, rode
+# `pip freeze > requirements.lock.txt` e entregue o arquivo junto.
+langchain>=0.3,<0.4
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-openai>=0.3,<0.4
+langchain-text-splitters>=0.3,<0.4
+langsmith>=0.1
+pydantic>=2,<3
+python-dotenv
+faiss-cpu
+requests
+pandas
+jupyter
+ipykernel
+# Fase 5 (verificacao de respostas por NLI):
+transformers
+torch
+sentencepiece
+# Interface web (opcional)
+streamlit
