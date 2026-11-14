@@ -28,4 +28,3 @@ Mostra, a cada resposta, a intenção, as ferramentas chamadas, as memórias usa
 - `app_streamlit.py` — interface web; `src/ui_formatacao.py` — formatação pura para a interface
 - `src/agente_final.py` — agente integrador (tool calling + histórico + verificação); `src/verificacao.py` — NLI, checagem numérica e coerência
 - `data/politicas/` — 6 documentos de política (base do índice FAISS, Fases 2 e 4)
-- `docs/uso_de_ia.md` — citação do uso de IA (exigida pelo enunciado)
